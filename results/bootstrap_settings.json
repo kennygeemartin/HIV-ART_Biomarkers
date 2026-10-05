@@ -1,0 +1,9 @@
+{
+  "seed": 73,
+  "replicates": 1000,
+  "unit": "Synthetic participant",
+  "method": "Paired ordinary percentile bootstrap of held-out predictions",
+  "confidence_level": 0.95,
+  "training_repeated": false,
+  "scope": "Conditional on fitted models and fixed dataset; not clinical validation; comparisons exploratory, no multiplicity adjustment"
+}

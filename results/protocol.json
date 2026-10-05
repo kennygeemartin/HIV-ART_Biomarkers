@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "threads": 4,
+  "max_epochs": 100,
+  "patience": 10,
+  "threshold": 0.5,
+  "augmentation": "none",
+  "class_weights": "none",
+  "sample_weights": "unit",
+  "tuning": "No search; fixed a priori settings",
+  "early_stopping": "Official validation partition; minimum BCE improvement 1e-5; best checkpoint restored",
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 64,
+    "gradient_clip_norm": 1
+  },
+  "transformer": {
+    "token_dimension": 64,
+    "blocks": 3,
+    "heads": 8,
+    "ffn": 128,
+    "dropout": 0.2,
+    "activation": "gelu"
+  },
+  "multitask": {
+    "task_loss_weights": {
+      "HIV": 1,
+      "ART": 1
+    },
+    "mask": "ART loss on eligible rows only",
+    "tokenizers": "Separate task tokenizers and fitted preprocessors; shared encoder",
+    "validation_loss": "Mean HIV BCE plus mean eligible ART BCE",
+    "training_loss": "Sum of minibatch mean HIV BCE and minibatch mean eligible ART BCE"
+  },
+  "data_sha256": "5a88602b21d21e9dd50e7f03e7880105c6bcced0c577cc94e1daa50bd1a602cb",
+  "source_sha256": "77a0aceca876b2d64ac6b3c040381b4113e924bae9fa3c5972f79975dc7088c1"
+}

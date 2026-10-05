@@ -1,0 +1,35 @@
+{
+  "screening_excluded_column_fit_and_inference_invariance": true,
+  "screening_imputer_feature_names": [
+    "AGEATVIS",
+    "HEIGHT",
+    "WEIGHT",
+    "BMI",
+    "TOTCHOL",
+    "HDL",
+    "TRIGLYC",
+    "NONHDL",
+    "MHLDLC",
+    "ALBU",
+    "PROT",
+    "GLOBULIN",
+    "A_G_RATIO",
+    "TC_HDL_RATIO",
+    "LDL_HDL_RATIO",
+    "TG_HDL_RATIO",
+    "HBA1C",
+    "GLUCOSE",
+    "CREAT",
+    "AST",
+    "ALT"
+  ],
+  "unique_participants_and_fixed_splits": true,
+  "target_definitions_verified": true,
+  "data_sha256": "5a88602b21d21e9dd50e7f03e7880105c6bcced0c577cc94e1daa50bd1a602cb",
+  "augmentation": "None",
+  "class_and_sample_weights": "Unit for all models",
+  "task_training_counts": {
+    "HIV": 4090,
+    "ART": 2296
+  }
+}

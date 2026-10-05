@@ -1,0 +1,27 @@
+{
+  "multitask": {
+    "selected_epoch": 4,
+    "validation_loss": 0.8141758143901825,
+    "stopped_epoch": 14
+  },
+  "HIV_single_ft": {
+    "selected_epoch": 4,
+    "validation_loss": 0.5972961783409119,
+    "stopped_epoch": 14
+  },
+  "HIV_mlp": {
+    "selected_epoch": 5,
+    "validation_loss": 0.5852599143981934,
+    "stopped_epoch": 15
+  },
+  "ART_single_ft": {
+    "selected_epoch": 3,
+    "validation_loss": 0.21947723627090454,
+    "stopped_epoch": 13
+  },
+  "ART_mlp": {
+    "selected_epoch": 6,
+    "validation_loss": 0.20537205040454865,
+    "stopped_epoch": 16
+  }
+}

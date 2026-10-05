@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "metrics_rows_verified": 24,
+  "model_task_fits_verified": 12,
+  "every_model_reloaded": true,
+  "max_prediction_reload_error": 3.3306690738754696e-16,
+  "max_shap_additivity_error": 6.109476091697985e-08,
+  "matching_training_participant_and_matrix_hashes": true,
+  "excluded_screening_fields_prediction_invariance": true,
+  "shap_background_train_only": true,
+  "shap_evaluated_test_only": true,
+  "data_sha256": "5a88602b21d21e9dd50e7f03e7880105c6bcced0c577cc94e1daa50bd1a602cb"
+}

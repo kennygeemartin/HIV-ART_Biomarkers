@@ -1,0 +1,11 @@
+{
+  "training_pipeline_sha256": "77a0aceca876b2d64ac6b3c040381b4113e924bae9fa3c5972f79975dc7088c1",
+  "published_source_sha256": {
+    "analyze_results.py": "de2075e705bb954af17bac98c7fa3c279ff957a1dfd5339c20d215a1fd72b79f",
+    "pipeline.py": "b6cfead05e421d8bad54db0debf2091941897c4d1fbc7b0ac799d0349d8481ab",
+    "run_experiment.py": "d1c673dfd5258f58cae506e2f5edcff16c3544e6eb6a741cb9048bbd48ba1e2b",
+    "summarize_results.py": "ab173b35de7e2619b842b0831e9e28f63e35e8648a602fcb79267cc35642b567",
+    "verify_results.py": "b5c7fc6f839ed19caf8513ba03638343e8c52c0d526296b380504dd74d52dceb"
+  },
+  "scope": "Publication edits change documentation and plot labels; fitted models, dataset and numerical results are preserved."
+}

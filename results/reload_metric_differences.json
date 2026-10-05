@@ -1,0 +1,149 @@
+[
+  {
+    "task": "HIV",
+    "split": "validation",
+    "model": "Multitask FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "validation",
+    "model": "Single-task FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "validation",
+    "model": "MLP",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "validation",
+    "model": "Logistic regression",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "validation",
+    "model": "Random forest",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "validation",
+    "model": "XGBoost",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "test",
+    "model": "Multitask FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "test",
+    "model": "Single-task FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "test",
+    "model": "MLP",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "test",
+    "model": "Logistic regression",
+    "differences": {}
+  },
+  {
+    "task": "HIV",
+    "split": "test",
+    "model": "Random forest",
+    "differences": {
+      "auroc": 5.656684503918541e-06,
+      "auprc": 2.1581531575165513e-06
+    }
+  },
+  {
+    "task": "HIV",
+    "split": "test",
+    "model": "XGBoost",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "validation",
+    "model": "Multitask FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "validation",
+    "model": "Single-task FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "validation",
+    "model": "MLP",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "validation",
+    "model": "Logistic regression",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "validation",
+    "model": "Random forest",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "validation",
+    "model": "XGBoost",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "test",
+    "model": "Multitask FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "test",
+    "model": "Single-task FT-Transformer",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "test",
+    "model": "MLP",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "test",
+    "model": "Logistic regression",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "test",
+    "model": "Random forest",
+    "differences": {}
+  },
+  {
+    "task": "ART",
+    "split": "test",
+    "model": "XGBoost",
+    "differences": {}
+  }
+]
